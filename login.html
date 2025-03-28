@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body style="background-image: url('green_enhanced.png'); background-size: cover; background-position: center; height: 100vh; margin: 0; display: flex; justify-content: center; align-items: center;">
+    <div style="background-color: rgba(255, 255, 255, 0.8); padding: 40px; width: 400px; border-radius: 8px; text-align: center;">
+        <img src="blank-profile-picture-973460_1280.webp" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; margin-bottom: 20px;">
+        <h2>Login</h2>
+        <form onsubmit="redirectToMainPage(event)">
+            <label for="gmail" style="font-size: 18px;">Gmail Account:</label><br>
+            <input type="email" id="gmail" name="gmail" placeholder="youremail@gmail.com" required style="width: 100%; padding: 15px; font-size: 16px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;"><br>
+            
+            <label for="username" style="font-size: 18px;">Username:</label><br>
+            <input type="text" id="username" name="username" required style="width: 100%; padding: 15px; font-size: 16px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;"><br>
+            
+            <label for="password" style="font-size: 18px;">Password:</label><br>
+            <input type="password" id="password" name="password" required style="width: 100%; padding: 15px; font-size: 16px; margin-bottom: 15px; border-radius: 10px; border: 1px solid #ccc;"><br>
+            
+            <input type="submit" value="Login" style="padding: 15px 30px; font-size: 16px; background-color: rgba(255, 255, 255, 0.8); border: none; border-radius: 30px; cursor: pointer; width: 100%; margin-top: 10px;">
+        </form>
+        <p style="font-size: 16px;">Don't have an account? <a href="registration form.html" style="color: #007bff; font-weight: bold;">Register here</a></p>
+    </div>
+
+    <script>
+        function redirectToMainPage(event) {
+            event.preventDefault();
+            window.location.href = "MAIN PAGE.html";
+        }
+    </script>
+</body>
+</html>
+
+</html>
+
+
+
+
+
+
+
+
